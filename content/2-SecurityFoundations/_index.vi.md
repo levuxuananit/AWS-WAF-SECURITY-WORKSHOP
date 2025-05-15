@@ -29,7 +29,8 @@ Bảo mật trong đám mây bao gồm bảy lĩnh vực:
 - **Bảo mật ứng dụng (Application Security)**: Tích hợp bảo mật vào vòng đời phát triển phần mềm (DevSecOps). Kiểm tra lỗ hổng, quản lý bản vá và mã hóa thông tin trong ứng dụng để đảm bảo an toàn từ cấp độ mã nguồn.
 
 ### Mục lục nền tảng bảo mật
-Trong worklog, nội dung nền tảng bảo mật bao gồm:
+Worklog này giới thiệu một số kiến nền tảng bảo:
+- [Trụ cột bảo mật]()
 - [Mô hình chia sẻ trách nhiệm]()
 - [Quản trị]()
 - [Quản lý và phân tách tài khoản]()

@@ -5,10 +5,14 @@ weight : 1
 chapter : false
 pre : " <b> 1. </b> "
 ---
-### Giới thiệu
-Chào mừng các bạn đến với workshop về [Trụ cột Bảo mật]() - AWS Well-Architected Framework.
-Trong môi trường điện toán đám mây, bảo mật không chỉ là ưu tiên hàng đầu mà còn là yếu tố then chốt quyết định sự thành công bền vững của hệ thống. Đó chính là lý do trụ cột Bảo mật (Security pillar) được đặt làm một trong sáu trụ cột chính của [AWS Well-Architected Framework]() – bộ hướng dẫn được AWS xây dựng để giúp các tổ chức thiết kế và vận hành khối lượng công việc một cách an toàn, hiệu quả và phù hợp với các yêu cầu tuân thủ.
+### Khung kiến trúc tối ưu của AWS
+![WAF](/images/1.Introduction/What-is-AWS-Well-Architected-Framework-1-1024x536.jpg)
+**Khung kiến ​​trúc tốt của AWS** giúp bạn hiểu được sự đánh đổi cho các quyết định bạn đưa ra khi xây dựng khối lượng công việc trên AWS. Bằng cách sử dụng Framework, bạn sẽ tìm hiểu các thông lệ kiến ​​trúc tốt nhất hiện tại để thiết kế và vận hành khối lượng công việc đáng tin cậy, an toàn, hiệu quả, tiết kiệm chi phí và bền vững trên đám mây. Nó cung cấp cho bạn một cách để liên tục đo lường khối lượng công việc của mình so với các thông lệ tốt nhất và xác định các lĩnh vực cần cải thiện. Chúng tôi tin rằng việc có khối lượng công việc được kiến ​​trúc tốt sẽ làm tăng đáng kể khả năng thành công trong kinh doanh.
 
-Trụ cột Bảo mật tập trung vào cách bạn bảo vệ dữ liệu, hệ thống và tài nguyên trong đám mây. Nó bao gồm các chiến lược kiểm soát quyền truy cập, quản lý danh tính, mã hóa dữ liệu, giám sát sự kiện và phản ứng trước các sự cố bảo mật. Việc tuân thủ các khuyến nghị của AWS trong trụ cột này không chỉ giúp giảm thiểu rủi ro mà còn tăng cường khả năng phát hiện và ứng phó nhanh chóng trước các mối đe dọa.
-
-Trong workshop hôm nay, chúng ta sẽ cùng nhau khám phá các nguyên tắc, thực tiễn tốt nhất và công cụ hỗ trợ đến từ AWS để xây dựng kiến trúc đám mây an toàn ngay từ thiết kế. Mục tiêu là giúp bạn hiểu rõ hơn cách áp dụng các giải pháp bảo mật phù hợp với từng giai đoạn phát triển của hệ thống từ ý tưởng ban đầu cho đến triển khai thực tế và vận hành lâu dài.
+Khung này dựa trên sáu trụ cột:
+- Hoạt động xuất sắc
+- Bảo vệ
+- Độ tin cậy
+- Hiệu suất Hiệu quả
+- Tối ưu hóa chi phí
+- Tính bền vững
