@@ -4,6 +4,7 @@ date :  "`r Sys.Date()`"
 weight : 1 
 chapter : false
 ---
+# Trụ cột bảo mật - Khung kiến trúc tối ưu
 ### Workshop trụ cột bảo mật
 Chào mừng các bạn đến với workshop về [Trụ cột Bảo mật]() - AWS Well-Architected Framework.
 Trong môi trường điện toán đám mây, bảo mật không chỉ là ưu tiên hàng đầu mà còn là yếu tố then chốt quyết định sự thành công bền vững của hệ thống. Đó chính là lý do trụ cột Bảo mật (Security pillar) được đặt làm một trong sáu trụ cột chính của [AWS Well-Architected Framework]() – bộ hướng dẫn được AWS xây dựng để giúp các tổ chức thiết kế và vận hành khối lượng công việc một cách an toàn, hiệu quả và phù hợp với các yêu cầu tuân thủ.
