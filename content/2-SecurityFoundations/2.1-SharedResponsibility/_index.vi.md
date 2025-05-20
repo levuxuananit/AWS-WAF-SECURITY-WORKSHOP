@@ -7,7 +7,7 @@ pre : " <b> 2.1 </b> "
 ---
 ### Mô hình chia sẻ trách nhiệm là gì?
 Mô hình chia sẻ trách nhiệm (Shared Responsibility Model) là một khái niệm cốt lõi trong điện toán đám mây của AWS, xác định rõ ràng ranh giới giữa trách nhiệm của AWS và trách nhiệm của khách hàng trong việc đảm bảo bảo mật và tuân thủ. Trong mô hình này, AWS chịu trách nhiệm bảo vệ “cơ sở hạ tầng của đám mây”, bao gồm phần cứng, phần mềm, mạng lưới và các cơ sở vật lý hỗ trợ hoạt động của dịch vụ. Ngược lại, khách hàng chịu trách nhiệm về “bảo mật trong đám mây”, tức là mọi cấu hình, dữ liệu, và ứng dụng mà họ triển khai và sử dụng trong môi trường AWS.
-![Shared-Responsibility](/images/2.prerequisite/aws-shared-responsibility.png)
+![Shared-Responsibility](/images/2.SecurityFoundations/aws-shared-responsibility.png)
 
 ### Trách nhiệm của AWS
 AWS chịu trách nhiệm bảo vệ cơ sở hạ tầng chạy tất cả các dịch vụ được cung cấp trong Đám mây AWS. Cơ sở hạ tầng này bao gồm phần cứng, phần mềm, mạng và các tiện ích chạy dịch vụ Đám mây AWS.

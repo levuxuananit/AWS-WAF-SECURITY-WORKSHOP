@@ -10,7 +10,7 @@ pre : " <b> 2.4 </b> "
 
 Một trong những cách hiệu quả nhất để đạt được điều này là áp dụng phương pháp **Quản trị có tổ chức**. Quản trị không chỉ là đưa ra quyết định đúng, mà còn là đảm bảo các quyết định được thực hiện một cách nhất quán, thay vì phụ thuộc vào kinh nghiệm hoặc sự phán đoán cá nhân.
 
- {{%notice note%}}
+{{%notice note%}}
 Bạn cần có quy trình quản trị rõ ràng để trả lời câu hỏi: "Làm thế nào tôi biết rằng các mục tiêu kiểm soát bảo mật đã được thực hiện đúng với khối lượng công việc này?"
 {{%/notice%}}
 

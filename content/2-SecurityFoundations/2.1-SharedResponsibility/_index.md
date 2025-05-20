@@ -8,7 +8,7 @@ pre : " <b> 2.1 </b> "
 ### What is the Shared Responsibility Model?
 The **Shared Responsibility Model** is a core concept in AWS cloud computing, which clearly defines the boundaries between AWS’s responsibilities and the customer’s responsibilities for ensuring security and compliance. In this model, AWS is responsible for securing the **"cloud infrastructure"**, which includes hardware, software, networking, and physical facilities that run AWS services. On the other hand, customers are responsible for **"security in the cloud"**, meaning all configurations, data, and applications they deploy and use within the AWS environment.
 
-![Shared-Responsibility](/images/2.prerequisite/aws-shared-responsibility.png)
+![Shared-Responsibility](/images/2.SecurityFoundations/aws-shared-responsibility.png)
 
 ### AWS Responsibilities
 AWS is responsible for protecting the infrastructure that runs all of the services offered in the AWS Cloud. This infrastructure includes hardware, software, networking, and facilities that run AWS Cloud services.
