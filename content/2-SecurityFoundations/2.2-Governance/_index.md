@@ -1,39 +1,51 @@
 ---
-title : "Create IAM Role"
+title : "Governance"
 date : "`r Sys.Date()`"
 weight : 2
 chapter : false
 pre : " <b> 2.2 </b> "
 ---
+### Security Governance
+**Security governance** is a crucial part of the overall strategy to protect systems and support business objectives. It goes beyond just technical solutions, involving the definition of security policies and control objectives to help the organization manage risks effectively.
 
-### Create IAM Role
+AWS recommends a **layered approach** to security governance. In this model, each security layer complements and builds upon the previous one, forming a strong and flexible defense system.
 
-In this step, we will proceed to create IAM Role. In this IAM Role, the policy **AmazonSSMManagedInstanceCore** will be assigned, this is the policy that allows the EC2 server to communicate with the Session Manager.
+### Foundational Layer
+The first and most important layer is understanding the AWS **Shared Responsibility Model**. According to this model:
+- AWS is responsible for the security **of** the cloud infrastructure, including hardware, software, networking, and physical facilities where services are operated.
+- Customers are responsible for the security **in** the cloud, including service configuration, data management, user identities, and access rights.
+- Understanding this boundary helps organizations clearly identify what they need to control and what they can rely on AWS for.
 
-1. Go to [IAM service administration interface](https://console.aws.amazon.com/iamv2/)
-2. In the left navigation bar, click **Roles**.
+Additionally, AWS provides [Artifact](https://aws.amazon.com/artifact/), a service that offers security and compliance documentation such as audit reports, certifications, and legal agreements.
 
-![role](/images/2.prerequisite/038-iamrole.png)
+### Security Foundation Layer
+The second layer is where most of the security control objectives are implemented using AWS tools and services. At this layer, you can:
+- Manage AWS accounts using a multi-account model to isolate risks.
+- Integrate user identities with systems such as AWS IAM Identity Center.
+- Set up detection controls like monitoring, logging, and alerting on unusual events.
+- When your organization begins using a new AWS service, you can update **Service Control Policies (SCPs)** in AWS Organizations to ensure the service is only used within approved boundaries.
 
-3. Click **Create role**.
+You can also implement **immutable security guardrails** – policies that apply across multiple accounts or the entire organization and cannot be altered by lower-level users.
+Examples:
+- Restrict usage of services to specific Regions only.
+- Prevent users from disabling detection tools or logging.
+- This layer also includes encryption policies, such as using AWS Config rules to track service configurations, or integrating security checks in the CI/CD pipeline to detect misconfigurations early.
 
-![role1](/images/2.prerequisite/039-iamrole.png)
+### Application Layer
+The top layer is where product development teams are directly responsible for implementing security controls within the applications they manage.
+Examples:
+- Implementing input validation in web applications to prevent SQL Injection attacks.
+- Ensuring identities and access rights are correctly passed between microservices.
+- Securing APIs and encrypting data in transit.
 
-4. Click **AWS service** and click **EC2**.
-  + Click **Next: Permissions**.
+Although product teams have the primary responsibility at this layer, they can still inherit security policies and tools from the middle layer to ensure consistency and reduce operational burden.
 
-![role1](/images/2.prerequisite/40-iamrole.png)
+### Shared Objective
+Regardless of the layer where controls are applied, the ultimate goal is to manage **risk effectively**. The risk management process includes:
+- **Identifying inherent risk**: The initial level of risk before any controls are applied. Assessed based on:
+  - **Likelihood**: Based on the frequency or history of incidents.
+  - **Impact**: Measured in terms of financial loss, downtime, or damage to reputation.
+- **Applying controls**: Defining policies, tools, and configurations to reduce the likelihood, impact, or both.
+- **Assessing residual risk**: The level of risk remaining after controls are in place. The organization must decide whether this level of risk is acceptable.
 
-5. In the Search box, enter **AmazonSSMManagedInstanceCore** and press Enter to search for this policy.
-  + Click the policy **AmazonSSMManagedInstanceCore**.
-  + Click **Next: Tags.**
-
-![createpolicy](/images/2.prerequisite/041-iamrole.png)
-
-6. Click **Next: Review**.
-7. Name the Role **SSM-Role** in Role Name
-  + Click **Create Role** \.
-
-![namerole](/images/2.prerequisite/042-iamrole.png)
-
-Next, we will make the connection to the EC2 servers we created with **Session Manager**.
+Control objectives may apply to a specific **workload**, or scale across **multiple systems** within the organization.

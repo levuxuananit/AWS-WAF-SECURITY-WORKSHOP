@@ -29,9 +29,9 @@ Security in the cloud covers seven areas:
 - **Application Security**: Integrate security into the software development lifecycle (DevSecOps). Perform vulnerability scanning, patch management, and encrypt information within the application to ensure safety from the source code level.
 
 ### Security Foundations Table of Contents
-- [Security Pillar](/content/2-SecurityFoundations/_index.md)
-- [Shared Responsibility Model](/content\2-SecurityFoundations/2.1-SharedResponsibility/_index.md)
-- [Governance](/content/2-SecurityFoundations/2.2-Governance/_index.md)
-- [Account Management and Separation](/content\2-SecurityFoundations/2.3-AWSAccountManagementAndSeparation/_index.md)
-- [Operating Your Workloads Securely](/content/2-SecurityFoundations/2.4-OperatingYourWorkloadsSecurely/_index.md)
+- [Security Pillar](./2-SecurityFoundations/)
+- [Shared Responsibility Model](./2.1-SharedResponsibility/)
+- [Governance](./2-SecurityFoundations/2.2-Governance/)
+- [Account Management and Separation](./2.3-AWSAccountManagementAndSeparation/)
+- [Operating Your Workloads Securely](./2.4-OperatingYourWorkloadsSecurely/)
 

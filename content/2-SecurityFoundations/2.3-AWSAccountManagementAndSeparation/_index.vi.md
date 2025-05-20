@@ -1,6 +1,6 @@
 ---
 title : "Quản lý và phân tách tài khoản AWS"
-date :  "`r Sys.Date()`" 
+date : "`r Sys.Date()`" 
 weight : 3 
 chapter : false
 pre : " <b> 2.3 </b> "
@@ -10,7 +10,7 @@ Khuyến nghị nên tổ chức khối lượng công việc (workloads) vào c
 - Chức năng (ví dụ: sản xuất, phát triển, kiểm thử)
 - Yêu cầu tuân thủ pháp lý
 - Các chính sách kiểm soát bảo mật chung
-- 
+  
 Lý do: Trong AWS, tài khoản là ranh giới cách ly cứng, giúp hạn chế rủi ro lan rộng. Ví dụ, bạn nên sử dụng tài khoản riêng để cách ly môi trường sản xuất (production) khỏi môi trường phát triển (development) và kiểm thử (test) nhằm đảm bảo an toàn và ổn định.
 
 ### Quản lý tập trung với AWS Organizations
