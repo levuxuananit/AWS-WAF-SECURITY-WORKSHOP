@@ -24,7 +24,7 @@ Bạn có thể tải báo cáo thông tin xác thực từ AWS Management Conso
 Bạn có thể sử dụng **AWS Management Console** để tải xuống báo cáo thông tin xác thực dưới dạng tệp giá trị phân tách bằng dấu phẩy (CSV). Xin lưu ý rằng báo cáo thông tin xác thực có thể mất 4 giờ để phản ánh các thay đổi. Để tải xuống báo cáo thông tin xác thực bằng AWS Management Console:
 1. Đăng nhập vào **AWS Management Console** và mở [bảng điều khiển IAM](https://console.aws.amazon.com/iam/).
 Trong ngăn điều hướng, chọn Báo cáo thông tin xác thực.
-1. Chọn Tải xuống báo cáo .
+2. Chọn Tải xuống báo cáo .
 ![download-credentials-report](/images/2.SecurityFoundations/download-credentials-report.png)
 
 {{%notice note%}}
@@ -84,7 +84,6 @@ Các liên hệ thay thế cho phép AWS liên hệ với người khác về c�
 
 ### Xóa khóa truy cập người dùng gốc của tài khoản AWS của bạn
 Khóa truy cập (gồm Access Key ID và Secret Access Key) được dùng để thực hiện các yêu cầu tới AWS qua chương trình (ví dụ: dùng AWS CLI hoặc SDK). Tuy nhiên, Tuyệt đối không sử dụng khóa truy cập của người dùng gốc, vì khóa truy cập này có toàn quyền với mọi dịch vụ và tài nguyên, bao gồm cả thông tin thanh toán. Bạn không thể giới hạn quyền khi sử dụng khóa truy cập của người dùng gốc, nên rất rủi ro về mặt bảo mật.
-
 
 **Phương pháp truy cập an toàn**:
 - Không tạo khóa truy cập cho người dùng gốc, trừ khi thực sự cần thiết.
