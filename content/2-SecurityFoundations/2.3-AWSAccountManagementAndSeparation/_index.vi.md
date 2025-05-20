@@ -56,4 +56,4 @@ Tích hợp với AWS Organizations và cho phép bạn chỉ định một tài
 
 ### Thực hành tốt nhất
 [SEC01-BP01 Phân chia khối lượng công việc bằng tài khoản](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_multi_accounts.html)
-[SEC01-BP02 Tài khoản người dùng gốc an toàn và các thuộc tính][(](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html))
+[SEC01-BP02 Tài khoản người dùng gốc an toàn và các thuộc tính](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html)

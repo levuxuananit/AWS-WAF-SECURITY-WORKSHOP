@@ -58,3 +58,11 @@ Cách làm này giúp:
 - Đảm bảo các mục tiêu bảo mật được đáp ứng nhất quán hơn
 
 Với sự nhất quán giữa các nhóm, tổ chức của bạn cũng sẽ dễ dàng báo cáo rủi ro và tình trạng kiểm soát cho các bên liên quan như lãnh đạo, khách hàng hay cơ quan kiểm tra.
+
+### Thực hành tốt nhất
+[SEC01-BP03 Xác định và xác nhận mục tiêu kiểm soát](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_control_objectives.html)
+[SEC01-BP04 Cập nhật các mối đe dọa bảo mật và khuyến nghị](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_updated_threats.html)
+[SEC01-BP05 Thu hẹp phạm vi quản lý bảo mật](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_reduce_management_scope.html)
+[SEC01-BP06 Tự động triển khai các biện pháp kiểm soát bảo mật tiêu chuẩn](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_automate_security_controls.html)
+[SEC01-BP07 Xác định các mối đe dọa và ưu tiên giảm thiểu bằng cách sử dụng mô hình mối đe dọa](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_threat_model.html)
+[SEC01-BP08 Đánh giá và triển khai các dịch vụ và tính năng bảo mật mới thường xuyên](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_implement_services_features.html)
