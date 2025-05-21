@@ -68,12 +68,12 @@ Hãy cân nhắc áp dụng các biện pháp thực hành tốt nhất làm cơ
 ![setup_bucket_name](/images/2.SecurityFoundations/24_setup_bucket_name.png)
 
 4. Chọn bucket mà vừa tạo.
-![choose_bucket](../../../static/images/2.SecurityFoundations/25_choose_bucket.png)
+![choose_bucket](/images/2.SecurityFoundations/25_choose_bucket.png)
 
 5. Sau đó chọn tab **Permissions**. 
 ![edit_bucket_policy](/images/2.SecurityFoundations/26_edit_bucket_policy.png)
 
-6. thay thế Bucket Policy bằng nội dung sau và ấn **Lưu**, lưu ý:
+6. thay thế Bucket Policy bằng nội dung sau:
 - [bucket] = tên bucket của bạn (ví dụ: **securelogbucket2025**)
 - [organization id] = id tổ chức được nhận dạng ở bước 1.
 ```json
@@ -120,6 +120,7 @@ Hãy cân nhắc áp dụng các biện pháp thực hành tốt nhất làm cơ
     ]
 }
 ```
+- Sau khi thay đổi, ấn **Lưu thay đổi**
 ![paste_policy](/images/2.SecurityFoundations/27_paste_policy.png)
 
 7. Tạo bucket thành công.
