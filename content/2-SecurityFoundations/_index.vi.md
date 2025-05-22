@@ -28,10 +28,12 @@ Bảo mật trong đám mây bao gồm bảy lĩnh vực:
 - **Ứng phó sự cố (Incident Response)**: Chuẩn bị các quy trình và công cụ để phản ứng kịp thời với các sự cố bảo mật. Bao gồm mô phỏng, ghi lại sự kiện và tự động hóa quá trình phát hiện, phân tích và khôi phục.
 - **Bảo mật ứng dụng (Application Security)**: Tích hợp bảo mật vào vòng đời phát triển phần mềm (DevSecOps). Kiểm tra lỗ hổng, quản lý bản vá và mã hóa thông tin trong ứng dụng để đảm bảo an toàn từ cấp độ mã nguồn.
 
-### Mục lục nền tảng bảo mật
+### Nội dung
 Worklog này giới thiệu một số kiến nền tảng bảo mật:
 - [Trụ cột bảo mật](./2-SecurityFoundations/)
 - [Mô hình chia sẻ trách nhiệm](./2.1-SharedResponsibility/)
 - [Quản trị](./2.1-SharedResponsibility/)
 - [Quản lý và phân tách tài khoản](./2.3-AWSAccountManagementAndSeparation/)
 - [Vận hành khối lượng công việc một cách an toàn](./2.4-OperatingYourWorkloadsSecurely/)
+- [Thiết lập tài khoản AWS và người dùng gốc](./2.5-AWSAccountSetupandRootUser/)
+- [Tạo tài khoản Data Bunker](./2.6-CreateADataBunkerAccount/)

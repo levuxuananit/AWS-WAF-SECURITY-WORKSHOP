@@ -28,10 +28,13 @@ Security in the cloud covers seven areas:
 - I**ncident Response**: Prepare processes and tools to respond promptly to security incidents. Includes simulations, event logging, and automating detection, analysis, and recovery processes.
 - **Application Security**: Integrate security into the software development lifecycle (DevSecOps). Perform vulnerability scanning, patch management, and encrypt information within the application to ensure safety from the source code level.
 
-### Security Foundations Table of Contents
+### Contents
+This worklog introduces some security fundamentals:
 - [Security Pillar](./2-SecurityFoundations/)
 - [Shared Responsibility Model](./2.1-SharedResponsibility/)
 - [Governance](./2-SecurityFoundations/2.2-Governance/)
 - [Account Management and Separation](./2.3-AWSAccountManagementAndSeparation/)
 - [Operating Your Workloads Securely](./2.4-OperatingYourWorkloadsSecurely/)
+- [Set up AWS account and root user](./2.5-AWSAccountSetupandRootUser/)
+- [Create Data Bunker account](./2.6-CreateADataBunkerAccount/)
 

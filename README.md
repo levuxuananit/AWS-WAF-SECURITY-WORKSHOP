@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="static/images/avatar-waf.png" alt="Markdownify" width="150"></a>
+  <a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html"><img src="static/images/avatar-waf.png" alt="Markdownify" width="150"></a>
   <br>
   AWS Well-Architected Security Workshop
 
