@@ -25,12 +25,12 @@ Tạo vai trò cho các nhà phát triển, để nhà phát triển có quyền
 ![role_name](/images/3.connect/3.1/7_role_name.png)
 
 7. Kiểm tra vai trò bạn đã tạo bằng cách chọn **developer-restricted-iam** trong danh sách. 
-![choose_new_role](../../../../static/images/3.connect/3.1/8_choose_new_role.png)
+![choose_new_role](/images/3.connect/3.1/8_choose_new_role.png)
 
-8. Ghi lại cả **ARN vai trò** và **liên kết đến bảng điều khiển**.
-![copy_arn](/static/images/3.connect/3.1/9_copy_arn.png)
+1. Ghi lại cả **ARN vai trò** và **liên kết đến bảng điều khiển**.
+![copy_arn](/images/3.connect/3.1/9_copy_arn.png)
 
-9. Vai trò hiện đã được tạo và sẵn sàng để thử nghiệm!
+1. Vai trò hiện đã được tạo và sẵn sàng để thử nghiệm!
 
 ### Xác nhận vai trò của nhà phát triển thử nghiệm
 Bây giờ bạn sẽ sử dụng người dùng IAM đã bật MFA để đảm nhận vai trò iam mới dành cho nhà phát triển bị hạn chế.

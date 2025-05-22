@@ -21,7 +21,7 @@ The policies created are:
 - ec2-run-instances
 
 ### References & Useful Resources
-[AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
-[IAM Use Cases and Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPracticesAndUseCases.html)
-[Become an IAM Policy Expert in 60 Minutes or Less](https://youtu.be/YQsK4MtsELU)
-[Actions, Resources, and Condition Keys for Identity and Access Management access](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)
+-[AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+- [IAM Use Cases and Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPracticesAndUseCases.html)
+- [Become an IAM Policy Expert in 60 Minutes or Less](https://youtu.be/YQsK4MtsELU)
+- [Actions, Resources, and Condition Keys for Identity and Access Management access](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)

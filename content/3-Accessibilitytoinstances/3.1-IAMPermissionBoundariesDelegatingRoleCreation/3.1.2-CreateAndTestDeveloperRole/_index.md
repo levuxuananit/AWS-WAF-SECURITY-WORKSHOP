@@ -26,12 +26,12 @@ Create a role for developers, so that developers have permissions to create role
 ![role_name](/images/3.connect/3.1/7_role_name.png)
 
 7. Test the role you created by selecting **developer-restricted-iam** from the list.
-![choose_new_role](../../../../static/images/3.connect/3.1/8_choose_new_role.png)
+![choose_new_role](/images/3.connect/3.1/8_choose_new_role.png)
 
-8. Make a note of both the **Role ARN** and the **Link to Dashboard**.
-![copy_arn](/static/images/3.connect/3.1/9_copy_arn.png)
+1. Make a note of both the **Role ARN** and the **Link to Dashboard**.
+![copy_arn](/images/3.connect/3.1/9_copy_arn.png)
 
-9. The role is now created and ready to test!
+1. The role is now created and ready to test!
 
 ### Confirm the test developer role
 You will now use the MFA-enabled IAM user to assume the new restricted developer iam role.

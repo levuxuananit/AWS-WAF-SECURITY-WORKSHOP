@@ -20,7 +20,7 @@ Các chính sách được tạo ra là:
 - ec2-run-instances
 
 ### Tài liệu tham khảo & tài nguyên hữu ích
-[Hướng dẫn sử dụng AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
-[Các trường hợp sử dụng và thực hành tốt nhất của IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPracticesAndUseCases.html)
-[Trở thành Chuyên gia Chính sách IAM trong vòng 60 phút hoặc ít hơn](https://youtu.be/YQsK4MtsELU)
-[Hành động, Tài nguyên và Khóa điều kiện cho Quản lý danh tính và quyền truy cập](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html) 
+- [Hướng dẫn sử dụng AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+- [Các trường hợp sử dụng và thực hành tốt nhất của IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPracticesAndUseCases.html)
+- [Trở thành Chuyên gia Chính sách IAM trong vòng 60 phút hoặc ít hơn](https://youtu.be/YQsK4MtsELU)
+- [Hành động, Tài nguyên và Khóa điều kiện cho Quản lý danh tính và quyền truy cập](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html) 

@@ -16,9 +16,9 @@ You will now use your existing MFA-enabled IAM user to assume the new ec2-admin-
 
 4. Select Switch Roles . If this is the first time you have selected this option, a page will appear with more information. After reading, select Switch Roles . If you clear your browser cookies, this page may appear again.
 
-![switch_role](../../../../static/images/3.connect/3.1/17_switch_role.png)
+![switch_role](/images/3.connect/3.1/17_switch_role.png)
 
-5. The display name and color will replace your username in the navigation bar, and you can begin using the permissions that role grants you instead of the permissions you have as an IAM user.
+1. The display name and color will replace your username in the navigation bar, and you can begin using the permissions that role grants you instead of the permissions you have as an IAM user.
 
 {{%notice note%}}
 The last few roles you used will appear in the menu. The next time you need to switch to one of those roles, just select the role you want. You will only need to enter the account and role information manually if the role is not shown in the Identity menu.
