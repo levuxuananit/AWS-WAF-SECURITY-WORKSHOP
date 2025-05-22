@@ -1,6 +1,6 @@
 ---
-title : "Test Role"
-date :  "`r Sys.Date()`" 
+title : "Kiểm tra Role"
+date : "`r Sys.Date()`" 
 weight : 3
 chapter : false
 pre : " <b> 3.2.3 </b> "

@@ -1,5 +1,5 @@
 ---
-title : "Test Role 
+title : "Test Role"
 date : "`r Sys.Date()`"
 weight : 3
 chapter : false
